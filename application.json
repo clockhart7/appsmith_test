@@ -1,0 +1,61 @@
+{
+  "zstorename": "sso_test",
+  "isStoreApp": false,
+  "navOption": "",
+  "isZTemplate": false,
+  "ssoLoginSetting": {
+    "ssoLoginEnabled": true,
+    "customSsoPageName": "login",
+    "enabledLoginTypes": [
+      "GOOGLE",
+      "MICROSOFT",
+      "LINKED_IN"
+    ],
+    "approvedDomains": [
+      "*"
+    ],
+    "approvedUsers": [],
+    "unauthedPageNames": [
+      "login"
+    ],
+    "landingPageName": "home"
+  },
+  "pages": [
+    {
+      "id": "Home",
+      "isDefault": true
+    },
+    {
+      "id": "Login",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "showNavbar": false,
+      "orientation": "top",
+      "navStyle": "stacked",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "showSignIn": false
+    }
+  },
+  "color": "#F5D1D1",
+  "icon": "joystick",
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
