@@ -10,7 +10,7 @@
         "paragraph",
         "label"
     ],
-    "bottomRow": 23,
+    "bottomRow": 24,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "test label",
+    "text": "test label changed master",
     "key": "6oou5taxzg",
     "isDeprecated": false,
     "rightColumn": 22,
