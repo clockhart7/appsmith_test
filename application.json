@@ -28,6 +28,10 @@
     {
       "id": "Login",
       "isDefault": false
+    },
+    {
+      "id": "APIPage",
+      "isDefault": false
     }
   ],
   "viewMode": false,
