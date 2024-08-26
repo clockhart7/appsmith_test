@@ -1,8 +1,9 @@
 {
   "zstorename": "sso_test",
-  "isStoreApp": false,
+  "isStoreApp": true,
   "navOption": "",
   "isZTemplate": false,
+  "isAutoInstall": false,
   "ssoLoginSetting": {
     "ssoLoginEnabled": true,
     "customSsoPageName": "login",
