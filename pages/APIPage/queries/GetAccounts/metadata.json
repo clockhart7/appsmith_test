@@ -33,10 +33,10 @@
       "encodeParamsToggle": true,
       "queryParameters": [],
       "customConfiguration": {
-        "cachedTTL": 0,
+        "cachedTTL": 0.0,
         "graphqlParams": {
           "baseObjectID": "",
-          "pageSize": 2000,
+          "pageSize": 2000.0,
           "cursor": "{{GetAccounts.responseMeta.headers.nextPage ? GetAccounts.responseMeta.headers.endCursor : null }}"
         },
         "isCached": false,
