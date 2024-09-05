@@ -1,1 +1,0 @@
-{"query":"query billingrunsQuery($cursorInput: String) {billingruns(pageSize: 2000 cursor: $cursorInput ){pageInfo{hasNextPage endCursor} edges{node{Id}}}}","variables":{"cursorInput":"{{test.responseMeta.headers.nextPage ? test.responseMeta.headers.endCursor : null }}"}}
