@@ -1,6 +1,7 @@
 {
   "zstorename": "sso_test",
   "isStoreApp": false,
+  "showZuoraNav": false,
   "navOption": "",
   "isZTemplate": false,
   "isAutoInstall": false,
