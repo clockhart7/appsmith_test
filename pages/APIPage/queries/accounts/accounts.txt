@@ -1,0 +1,1 @@
+{"query":"query accountsQuery($cursorInput: String) {accounts(pageSize: 2000 cursor: $cursorInput ){pageInfo{hasNextPage endCursor} edges{node{AccountNumber Balance Id}}}}","variables":{"cursorInput":"{{accounts.responseMeta.headers.nextPage ? accounts.responseMeta.headers.endCursor : null }}"}}
