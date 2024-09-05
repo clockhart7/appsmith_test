@@ -33,11 +33,11 @@
       "encodeParamsToggle": true,
       "queryParameters": [],
       "customConfiguration": {
-        "cachedTTL": 0.0,
+        "cachedTTL": 0,
         "graphqlParams": {
           "baseObjectID": "",
-          "pageSize": 2000.0,
-          "cursor": "{{test.responseMeta.headers.nextPage ? test.responseMeta.headers.endCursor : null }}"
+          "pageSize": 2000,
+          "cursor": "{{.responseMeta.headers.nextPage ? .responseMeta.headers.endCursor : null }}"
         },
         "isCached": false,
         "queryBuilder": {
@@ -77,6 +77,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      ".responseMeta.headers.nextPage ? .responseMeta.headers.endCursor : null ",
       "test.responseMeta.headers.nextPage ? test.responseMeta.headers.endCursor : null "
     ],
     "userSetOnLoad": false,
