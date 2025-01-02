@@ -43,6 +43,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{navigateTo('Login', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 42,
+  "originalTopRow": 38,
   "parentColumnSpace": 11.890625,
   "parentId": "0",
   "parentRowSpace": 10,

@@ -26,22 +26,20 @@
   "color": "#F5D1D1",
   "evaluationVersion": 2,
   "icon": "joystick",
-  "isAutoInstall": false,
   "isChildrenEditable": false,
   "isStoreApp": true,
-  "isZTemplate": false,
   "navOption": "",
   "pages": [
+    {
+      "id": "APIPage",
+      "isDefault": false
+    },
     {
       "id": "Home",
       "isDefault": true
     },
     {
       "id": "Login",
-      "isDefault": false
-    },
-    {
-      "id": "APIPage",
       "isDefault": false
     }
   ],
