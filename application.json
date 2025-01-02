@@ -1,26 +1,36 @@
 {
-  "zstorename": "sso_test",
-  "isStoreApp": true,
-  "navOption": "",
-  "isZTemplate": false,
-  "isAutoInstall": false,
-  "ssoLoginSetting": {
-    "ssoLoginEnabled": true,
-    "customSsoPageName": "login",
-    "enabledLoginTypes": [
-      "GOOGLE",
-      "MICROSOFT",
-      "LINKED_IN"
-    ],
-    "approvedDomains": [
-      "*"
-    ],
-    "approvedUsers": [],
-    "unauthedPageNames": [
-      "login"
-    ],
-    "landingPageName": "home"
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": false
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
   },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#F5D1D1",
+  "evaluationVersion": 2,
+  "icon": "joystick",
+  "isAutoInstall": false,
+  "isChildrenEditable": false,
+  "isStoreApp": true,
+  "isZTemplate": false,
+  "navOption": "",
   "pages": [
     {
       "id": "Home",
@@ -35,32 +45,44 @@
       "isDefault": false
     }
   ],
-  "viewMode": false,
-  "appIsExample": false,
-  "unreadCommentThreads": 0,
+  "showZuoraNav": false,
+  "ssoLoginEnabled": true,
+  "ssoLoginSetting": {
+    "approvedDomains": [
+      "*"
+    ],
+    "approvedUsers": [],
+    "customSsoPageName": "login",
+    "enabledLoginTypes": [
+      "GOOGLE",
+      "MICROSOFT",
+      "LINKED_IN"
+    ],
+    "landingPageName": "home",
+    "ssoLoginEnabled": true,
+    "unauthedPageNames": [
+      "login"
+    ]
+  },
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
     },
     "navigationSetting": {
-      "showNavbar": false,
-      "orientation": "top",
-      "navStyle": "stacked",
-      "position": "static",
-      "itemStyle": "text",
       "colorStyle": "light",
+      "itemStyle": "text",
       "logoAssetId": "",
       "logoConfiguration": "logoOnly",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
       "showSignIn": false
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
     }
-  },
-  "color": "#F5D1D1",
-  "icon": "joystick",
-  "unpublishedCustomJSLibs": [],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "collapseInvisibleWidgets": true,
-  "isManualUpdate": false,
-  "deleted": false
+  }
 }
