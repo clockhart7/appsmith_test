@@ -59,7 +59,8 @@
     "landingPageName": "home",
     "ssoLoginEnabled": true,
     "unauthedPageNames": [
-      "login"
+      "login",
+      "home"
     ]
   },
   "unpublishedApplicationDetail": {
@@ -82,5 +83,8 @@
       "density": 1.0,
       "sizing": 1.0
     }
+  },
+  "zConstants": {
+    "asdf": "12345"
   }
 }
