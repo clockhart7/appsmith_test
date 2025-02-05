@@ -1,9 +1,6 @@
 {
   "artifactJsonType": "APPLICATION",
   "clientSchemaVersion": 1,
-  "extensionCustomEvents": [],
-  "extensionCustomFields": [],
-  "extensionCustomObjects": [],
   "fileFormatVersion": 5,
   "serverSchemaVersion": 11
 }
