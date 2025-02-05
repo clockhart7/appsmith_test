@@ -27,7 +27,7 @@
   "evaluationVersion": 2,
   "icon": "joystick",
   "isChildrenEditable": false,
-  "isStoreApp": true,
+  "isStoreApp": false,
   "navOption": "",
   "pages": [
     {
