@@ -26,8 +26,10 @@
   "color": "#F5D1D1",
   "evaluationVersion": 2,
   "icon": "joystick",
+  "isAutoInstall": false,
   "isChildrenEditable": false,
   "isStoreApp": false,
+  "isZTemplate": false,
   "navOption": "",
   "pages": [
     {
